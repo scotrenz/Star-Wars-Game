@@ -1,0 +1,62 @@
+#characters{
+	display: block;
+}
+.charBox {
+    border: 3px solid green;
+    margin-right: 10px;
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+    background-color: white;
+    color: black;
+
+}
+.enemyBox {
+    border: 3px solid red;
+    background-color: black;
+    margin: 0px;
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+
+}
+
+
+body {
+    clear: both;
+    display: table;
+    margin: auto;
+    text-align: center;
+    background: url(http://7wallpapers.net/wp-content/uploads/14_Rogue-One-A-Star-Wars-Story.jpg);
+    background-size: cover;
+    color: white;
+}
+
+img {
+    width: 150px;
+    height: 100px;
+}
+
+#chosen-character {
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#enemies {
+    margin-bottom: 10px;
+}
+
+#fight {
+    margin-top: 20px;
+}
+
+#chosen-enemy {
+
+}
+h1{
+	font-size: 50px;
+	font-weight: bold;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
